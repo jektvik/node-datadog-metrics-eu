@@ -1,5 +1,5 @@
 # Other regions
-This is a fork of https://github.com/dbader/node-datadog-metrics wired for accounts (currently Datadog only has EU). The region is configured by passing an apiHost url into the BufferedMetricsLogger constructor like so
+This is a fork of https://github.com/dbader/node-datadog-metrics adding support to non-US accounts (currently Datadog only has EU). The region is configured by passing an apiHost url into the BufferedMetricsLogger constructor like so
 
 ```
 const metricsLogger = new metrics.BufferedMetricsLogger({
